@@ -10,7 +10,7 @@ document.addEventListener("submit",(p)=>{
     var Message2=document.getElementById("list2");
     var Message3=document.getElementById("list3");
 
-    fetch('http://localhost:3000/weather?address='+searchValue)
+    fetch('/weather?address='+searchValue)
     .then((res)=>{
         res.json().then(re=>{
             if(re.error){
