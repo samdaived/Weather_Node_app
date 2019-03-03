@@ -6,6 +6,10 @@ const {geocode} =require('../dataFetching/geo');
 const {weather} =require('../dataFetching/weatherData');
 const validate = require('validator');
 
+// define the port
+const port= process.env.PORT ||3000;
+
+
 // define paths
 const Base_DIR= path.join(__dirname,'../public');
 const Views_DIR=path.join(__dirname,'../template/views');
@@ -44,7 +48,7 @@ app.get('/about',(req,res)=>{
 
 
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log('worked');
     
 })
