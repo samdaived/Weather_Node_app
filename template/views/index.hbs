@@ -3,13 +3,27 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{name}}</title>
+    <title>WEATHER</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <script src="main.js"></script>
 </head>
 <body>
+    <div class="div_H_F">
+    <h2>WEATHER</h2>
     {{>header}}
+    <div>
+        <form id="form">
+            <input type="text" id="inp">
+            <input type="submit" name="but" value="search">
+        </form>
+        <ul>
+            <li>The Name of the area: <span id="list1"></span></li>
+            <li>The tempreture: <span id="list2"></span></li>
+            <li>Summary: <span id="list3"></span></li>
+        </ul>
+    </div>
     {{>footer}}
+    </div>
 </body>
 </html>
