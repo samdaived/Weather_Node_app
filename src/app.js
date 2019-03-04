@@ -49,6 +49,6 @@ app.get('/about',(req,res)=>{
 
 
 app.listen(port,()=>{
-    console.log('worked');
+    console.log(port);
     
 })

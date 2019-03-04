@@ -1,8 +1,4 @@
 
-console.log("worked");
-
-
-
 document.addEventListener("submit",(p)=>{
     p.preventDefault();
     const searchValue =document.getElementById("inp").value;

@@ -3,7 +3,6 @@ const validate =require('validator')
 
 // this function is getting an object of data about the weathr of the provided city
 const weather= ({lat,lon,name},callcack)=>{
-    console.log(lat,lon);
     
     //check that the data is not empty
     if(lat && lon){
