@@ -13,6 +13,6 @@ You can visit the app at this link
 
 * to start the application
 
-# open browser a past the folowing 
+# Open browser a paste the folowing 
   
   * http://localhost:3000
